@@ -1,1 +1,25 @@
+# --- VS Code 및 시스템 관련 ---
 .vscode/
+*.swp
+.DS_Store
+
+# --- 빌드 결과물 (이진 파일) ---
+*.o
+*.obj
+*.bin
+*.elf
+*.list
+*.map
+
+# --- OS 이미지 및 가상 디스크 ---
+*.img
+*.iso
+*.vdi
+*.qcow2
+
+# --- 라이브러리 및 임시 파일 ---
+*.a
+*.lib
+build/
+out/.vscode/
+.git_old/
